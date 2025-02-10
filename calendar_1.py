@@ -70,17 +70,18 @@ def start_calendar():
     user_choice = input("Enter your choice: ").upper()
 
     if user_choice == "V":
-      print(calendar)
+      clear()
       # Check if the calendar is empty
       if not calendar:
         print("The calendar is empty")
       else:
         print(calendar)
     elif user_choice == "U":
+      clear()
       update()
 
     elif user_choice == "A":
-      print("...")
+      clear()
       event = input("Enter the event: ")
       event_date = input("Enter the date: (dd/mm/yyyy): ")
       # Check if the date is in the correct format
@@ -98,7 +99,7 @@ def start_calendar():
       print("Goodbye!")
 
     elif user_choice == "D":
-      print("...")
+      clear()
       # Check if the calendar is empty
       if not calendar:
         print("The calendar is empty")

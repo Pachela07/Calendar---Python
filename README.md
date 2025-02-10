@@ -13,5 +13,5 @@ Built in Python, this interactive calendar provides a user-friendly interface fo
 ## 🛠️ Installation
 1. Clone the repository:
    ```bash
-   git clone https://github.com/yourusername/calendar-cli.git
+   git clone https://github.com/Pachela07/calendar_1-cli.git
    cd calendar-cli

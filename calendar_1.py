@@ -9,7 +9,7 @@ Delete an existing event """
 from time import sleep, strftime
 import os
 
-USER_NAME = "Dholglas Rodrigues"
+USER_NAME = "USER"
 
 # Empty dictionary for the calendar 
 calendar = {}
